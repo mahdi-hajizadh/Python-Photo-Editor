@@ -1,7 +1,5 @@
 # Python Photo Editor
 
-A Python-based photo editing application with image enhancement and color manipulation features.
-
 A lightweight, browser-based photo editor built with **Streamlit**, **Pillow**, and **NumPy**. Edits are calculated from the original uploaded image and can be downloaded at full resolution.
 
 ## Features
@@ -42,13 +40,6 @@ On macOS/Linux, use `python3 -m venv .venv` and `source .venv/bin/activate` inst
 4. Choose PNG or JPEG and download the edited image.
 
 Uploaded originals are not overwritten. Preview images are resized by the browser interface, not by the processing pipeline.
-
-## Screenshots
-
-Screenshots are not included because a verified GUI capture was not available during packaging. Add screenshots here after running the application:
-
-- `docs/screenshots/editor.png` — main editor and before/after view.
-- `docs/screenshots/export.png` — download controls.
 
 ## Testing
 
